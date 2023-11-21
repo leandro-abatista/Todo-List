@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Todo from "./components/Todo";
 import TodoForm from "./components/TodoForm";
-import Search from "./components/search";
+import Search from "./components/Buscar";
 
 import "./App.css";
 import Filter from "./components/Filter";
