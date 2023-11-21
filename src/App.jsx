@@ -105,7 +105,7 @@ function App() {
           .sort((a, b) =>
             sort === "Asc"
               ? a.text.localeCompare(b.text)
-              : b.text.localeCompare(a.tetx)
+              : b.text.localeCompare(a.text)
           )
           .map((todo) => (
             <Todo
